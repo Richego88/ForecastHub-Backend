@@ -10,6 +10,9 @@ const weatherRouter = require("./routes/weather");
 const usersRouter = require("./routes/users");
 const app = express();
 
+console.log("CONNECTION_STRING:", process.env.CONNECTION_STRING);
+console.log("DATABASE_URL:", process.env.OWM_API_KEY);
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE");
