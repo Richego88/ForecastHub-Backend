@@ -9,6 +9,7 @@ const indexRouter = require("./routes/index");
 const weatherRouter = require("./routes/weather");
 const usersRouter = require("./routes/users");
 const app = express();
+
 const cors = require("cors");
 app.use(cors());
 
