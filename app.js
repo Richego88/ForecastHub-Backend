@@ -11,7 +11,11 @@ const usersRouter = require("./routes/users");
 const app = express();
 
 const cors = require("cors");
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+  })
+);
 
 app.use(logger("dev"));
 app.use(express.json());
