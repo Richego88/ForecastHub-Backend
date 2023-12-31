@@ -1,7 +1,5 @@
 # ForecastHub
 
-This project was developed during the La Capsule BootCamp with subsequent modifications tailored to personal coding style.
-
 ## Overview
 
 This full-stack web application utilizes HTML, CSS, and vanilla JS. It leverages an external API to retrieve weather information for a specified city. The back end, powered by Express, features routes for weather (including POST, GET, and DELETE operations), with data stored in MongoDB collections for users and cities. Input validation is implemented through a dedicated module. Additionally, sensitive information is secured using environmental variables stored in a `.env` file.
@@ -33,7 +31,7 @@ The project is deployed on Vercel.
 
 ## Acknowledgments
 
-This was my first full-stack mini-project, and it was an enjoyable learning experience. Special thanks to La Capsule BootCamp for providing the foundation.
+This project, my first full-stack mini-project developed during the La Capsule Coding BootCamp, has been infused with my coding style, and I plan to continually enhance its features as I acquire more knowledge. The learning experience was enjoyable, and I express special gratitude to La Capsule BootCamp for laying the foundation.
 
 ## License
 
