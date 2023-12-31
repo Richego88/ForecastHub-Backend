@@ -1,4 +1,4 @@
-# Weather App
+# ForecastHub
 
 This project was developed during the La Capsule BootCamp with subsequent modifications tailored to personal coding style.
 
