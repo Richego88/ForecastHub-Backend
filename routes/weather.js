@@ -3,7 +3,7 @@ const router = express.Router();
 const fetch = require("node-fetch");
 const City = require("../models/cities");
 
-const weatherAPIKEY = "acb0801847b36845ea5b16de3e2a5d7a";
+const weatherAPIKEY = process.env.OWM_API_KEY;
 
 // Mock Data used to try the app before connecting to MongoDB
 // let weather = [
